@@ -3,8 +3,10 @@
 ```
 # 打包
 mvn package
+# 进入target目录
+cd target
 # 运行
-java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT-jar-with-dependencies.jar -p 8081
+java -jar JrebelBrainsLicenseServerforJava-1.0-SNAPSHOT.jar -p 8081
 ```
 ## Docker安装
 ```
